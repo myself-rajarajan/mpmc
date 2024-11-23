@@ -1,0 +1,42 @@
+; STEPS FOR EXECUTING THE PROGRAM IN 8086
+
+; Micro-8086 EB
+; #A
+
+; Start Address:
+; 1000                              PROGRAM STARTING ADDRESS
+
+; 1000-
+; MOV CX,00H                        
+
+; AFTER PROGRAM COMPLETED CLICK ON RES BUTTON BOTTON TYPE
+
+; Micro-8086 EB
+; #GO 1000
+; Executing...                    AFTER EXECUTING GO 1000
+
+; AGAIN CLICK ON RES BUTTON IN MP 8086
+
+; Micro-8086 EB
+; #SB 1200
+; Substituting bytes
+; 0000:1200-FF 00
+; 0000:1201-FF 02
+; 0000:1202-FF 00
+; 0000:1203-FF 04
+
+; AGAIN CLICK ON RES BUTTON
+
+; Micro-8086 EB
+; #GO 1000
+; Executing...
+
+; AGAIN CLICK ON RES
+
+; Micro-8086 EB
+; SB 1204
+
+; SUBSTITUTING BYTES
+; 0000:1204-00
+; 0000:1205-06
+; 0000:1206-00                  THIS IS FOR CARRY 
